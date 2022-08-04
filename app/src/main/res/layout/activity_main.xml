@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.github.gcacace.signaturepad.views.SignaturePad
+        android:id="@+id/sgtTest"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:penColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:text="Salvar"/>
+
+
+    <ImageView
+        android:id="@+id/imgTest"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/txtTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+</LinearLayout>
